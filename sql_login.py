@@ -1,10 +1,9 @@
-#!/usr/local/omcs-devops/bin/python3.6
+#!python/path
 import subprocess
 import base64
 import logging
 
-private_logger=logging.getLogger()
-logger=logging.getLogger("public_log")
+
 
 def create_query(query):
     pre="""
